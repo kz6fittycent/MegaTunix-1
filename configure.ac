@@ -93,7 +93,7 @@ dnl for GTK 3.x   	GTK_CFLAGS+="-DGSEAL_ENABLE"
 PKG_CHECK_GTK()
 
 dnl check for gtkgl library
-PKG_CHECK_MODULES(GTKGL, [gtkgl2.0-1])
+PKG_CHECK_MODULES(GTKGL, [gtkgl2.0-dev])
 AC_SUBST(GTKGL_CFLAGS)
 AC_SUBST(GTKGL_LIBS)
 
