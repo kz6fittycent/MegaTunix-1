@@ -98,7 +98,7 @@ AC_SUBST(GTKGL_CFLAGS)
 AC_SUBST(GTKGL_LIBS)
 
 dnl check for glade-2.x library
-PKG_CHECK_MODULES(LIBGLADE,libglade-2.0 )
+PKG_CHECK_MODULES(LIBGLADE,libglade2-0 )
 dnl if test `uname -s` != "Darwin"; then
 dnl 	LIBGLADE_LIBS+="-Wl,--export-dynamic"
 dnl fi
